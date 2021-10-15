@@ -17,9 +17,11 @@ function Navbar() {
         <div className='navbar'>
           <Link to='#' className='menu-bars'>
             <div className="circle-icon">
-
              <FaIcons.FaBars className="fa-bars" onClick={showSidebar} />
-              </div>
+            </div>
+          </Link>
+          <Link to='/'>
+            <img className='logo' alt="logo" src={require('../assets/images/logo.svg')}/>
           </Link>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>

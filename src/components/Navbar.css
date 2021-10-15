@@ -2,8 +2,12 @@
   background-color: #19171A;
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
+}
+
+.logo {
+  margin-right: 2em;
 }
 
 .menu-bars {
