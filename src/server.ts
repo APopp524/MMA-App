@@ -2,7 +2,7 @@
 import http from 'http';
 import express, { Express } from 'express';
 import morgan from 'morgan';
-import routes from './routes/schedule';
+import routes from './server/routes/schedule';
 import * as dotenv from 'dotenv';
 
 const router: Express = express();
