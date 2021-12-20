@@ -9,11 +9,13 @@ import Users from "../pages/user/Users";
 import PrivateRoute from "./PrivateRoute";
 import PublicRoute from "./PublicRoute";
 import User from "../pages/user/UserPage";
+import Schedule from "../pages/schedule/Schedule";
 
 export default function RouteApp() {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route path="/schedule" component={Schedule} />
 
       <PublicRoute path="/signup" component={Signup} />
       <PublicRoute path="/login" component={Login} />
